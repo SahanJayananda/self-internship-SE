@@ -1,0 +1,11 @@
+2026-08-27 09:00:01 INFO AuthService: user login succeeded
+2026-08-27 09:00:02 INFO AuthService: user login succeeded
+2026-08-27 09:00:05 WARN PaymentService: retrying transaction
+2026-08-27 09:00:07 ERROR DatabaseService: connection timeout after 30s
+2026-08-27 09:00:09 ERROR DatabaseService: connection timeout after 30s
+2026-08-27 09:00:11 ERROR PaymentService: out of memory
+2026-08-27 09:00:13 CRITICAL PaymentService: out of memory
+2026-08-27 09:00:15 ERROR DatabaseService: connection timeout after 30s
+this line is not a valid log entry at all
+2026-08-27 09:00:20 FATAL CoreService: unrecoverable crash detected
+2026-08-27 09:00:22 INFO AuthService: user logout succeeded
